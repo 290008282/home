@@ -2,7 +2,7 @@
   {
     "icon": "Blog",
     "name": "博客",
-    "link": "https://whrc.cc/"
+    "link": "https://whrc.cc/blog/"
   },
   {
     "icon": "Cloud",
@@ -12,26 +12,26 @@
   {
     "icon": "CompactDisc",
     "name": "音乐",
-    "link": "https://music.whrc.cc/"
+    "link": "https://music.2w.pw/"
   },
   {
     "icon": "Compass",
     "name": "起始页",
-    "link": "https://nav.whrc.cc/"
+    "link": "https://nav.2w.pw/"
   },
   {
     "icon": "Book",
     "name": "网址集",
-    "link": "https://web.whrc.cc/"
+    "link": "https://web.2w.pw/"
   },
   {
     "icon": "Fire",
     "name": "今日热榜",
-    "link": "https://hot.whrc.cc/"
+    "link": "https://hot.2w.pw/"
   },
   {
     "icon": "LaptopCode",
     "name": "站点监测",
-    "link": "https://status.whrc.cc/"
+    "link": "https://status.2w.pw/"
   }
 ]
