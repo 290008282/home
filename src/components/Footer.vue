@@ -26,13 +26,18 @@
           <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
             {{ siteIcp }}
           </a>
+          </span>
        <!-- 添加：公安备案 -->
-       <span>
-         &amp;
-          <a v-if="sitePsr" href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank">
-           {{ sitePsr }}
-          </a>
-</span>
+         <span v-if="sitePsr">
+            <img src="/备案图标.png" class="net" />
+            <span>&nbsp;</span>
+            <a href="https://beian.mps.gov.cn/#/query/webSearch?code=34010402704171" rel="noreferrer" target="_blank">
+              {{ sitePsr }}
+            </a>
+            <!-- &amp; -->
+            &nbsp;
+          </span>
+
         </span>
       </div>
       <div v-else class="lrc">
