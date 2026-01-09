@@ -26,9 +26,13 @@
           <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
             {{ siteIcp }}
           </a>
-          <a v-if="siteGongan" href="https://beian.mps.gov.cn" target="_blank">
-            {{ siteGongan }}
+       <!-- 添加：公安备案 -->
+       <span>
+         &amp;
+          <a v-if="sitePsr" href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank">
+           {{ sitePsr }}
           </a>
+</span>
         </span>
       </div>
       <div v-else class="lrc">
@@ -59,6 +63,7 @@ const startYear = ref(
   import.meta.env.VITE_SITE_START.substring(0, 4) : null
 );
 const siteIcp = ref(import.meta.env.VITE_SITE_ICP);
+const sitePsr = ref(import.meta.env.VITE_SITE_PSR); 
 const siteAuthor = ref(import.meta.env.VITE_SITE_AUTHOR);
 const siteUrl = computed(() => {
   const url = import.meta.env.VITE_SITE_URL;
