@@ -31,7 +31,7 @@
          <span v-if="sitePsr">
             <img src="/备案图标.png" class="net" />
             <span>&nbsp;</span>
-            <a href="https://beian.mps.gov.cn/#/query/webSearch?code=37108202000716" rel="noreferrer" target="_blank">
+            <a href="https://beian.mps.gov.cn/#/query/webSearch?code=37108202000715" rel="noreferrer" target="_blank">
               {{ sitePsr }}
             </a>
             <!-- &amp; -->
