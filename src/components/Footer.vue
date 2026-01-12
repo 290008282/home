@@ -38,7 +38,7 @@
             &nbsp;
           </span>
 
-        </span>
+
       </div>
       <div v-else class="lrc">
         <Transition name="fade" mode="out-in">
